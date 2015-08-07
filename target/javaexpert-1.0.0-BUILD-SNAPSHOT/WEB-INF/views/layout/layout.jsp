@@ -10,7 +10,11 @@
     <tiles:insertAttribute name="menu" />
 </div>
 <div id="body">
-    <td><tiles:insertAttribute name="body" />
+    <div class="container">	
+		<div id="ajaxBodyDivId">
+			<tiles:insertAttribute name="body" />
+		</div>
+	</div>
 </div>
 <div id="footer">
     <tiles:insertAttribute name="footer" />

@@ -6,7 +6,6 @@
 <script src="${contextPath}/resource/js/lib/bootstrap.min-3.3.5.js"></script>
 <script src="${contextPath}/resource/js/lib/jquery.min-1.11.3.js"></script>
 
-
 <div class="container">
 	<div class="panel panel-intro">
 		<div class="panel-heading">

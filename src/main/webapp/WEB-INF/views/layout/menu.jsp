@@ -3,20 +3,14 @@
 <link type="text/css" rel="stylesheet"  href="${contextPath }/resource/css/lib/bootstrap.min-3.3.5.css" >
 <script src="${contextPath}/resource/js/lib/bootstrap.min-3.3.5.js"></script>
 <script src="${contextPath}/resource/js/lib/jquery.min-1.11.3.js"></script>
+<script src="${contextPath}/resource/js/lib/angular.min-1.3.14.js"></script>
+<script src="${contextPath}/resource/js/layout/menu.js"></script>
 
 <div class="container">
-	<ul class="nav nav-tabs">
-	  <li class="active"><a href="#">Home</a></li>
-	  <li class="dropdown">
-	    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1
-	    <span class="caret"></span></a>
-	    <ul class="dropdown-menu">
-	      <li><a href="#">Submenu 1-1</a></li>
-	      <li><a href="#">Submenu 1-2</a></li>
-	      <li><a href="#">Submenu 1-3</a></li> 
-	    </ul>
-	  </li>
-	  <li><a href="#">Menu 2</a></li>
-	  <li><a href="#">Menu 3</a></li>
+	<ul class="nav nav-tabs"  id="mainMenuId">
+	  <li class="active"><a href="${contextPath }/introduce">Home</a></li>
+	  <li><a href="${contextPath}/javacore">Java Core</a></li>
+	  <li><a href="${contextPath}/springframework">Spring Framework</a></li>
+	  <li><a href="${contextPath}/designpattern">Design Pattern</a></li>
 	</ul>
-</div>
+</div>	

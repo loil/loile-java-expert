@@ -11,4 +11,7 @@
     <definition name="home" extends="base.definition">
     	<put-attribute name="body" value="/WEB-INF/views/pages/home/home.jsp"/>
     </definition>
+	<definition name="javacore" template="/WEB-INF/views/pages/javaCore/javacore.jsp"/>
+    <definition name="springframework" template="/WEB-INF/views/pages/springframwork/springframework.jsp"/>
+    <definition name="designpattern" template="/WEB-INF/views/pages/designPattern/designpattern.jsp"/>
 </tiles-definitions>
